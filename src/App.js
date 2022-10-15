@@ -1,0 +1,18 @@
+import React from 'react'
+import {useState} from 'react';
+import './App.css';
+import Calculator from './calculator';
+
+
+
+function App() {
+
+  return (
+    <div>
+      <Calculator />
+    </div>
+   
+  );
+}
+
+export default App;
